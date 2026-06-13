@@ -212,8 +212,31 @@ footer hr {
 }
 
 @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-right: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
     .menu {
         grid-template-columns: 1fr;
+    }
+
+    .cardmenu {
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
     }
 
     .bestcard {
@@ -221,9 +244,5 @@ footer hr {
         align-items: center;
     }
 
-    header {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-    }
+    
 }
