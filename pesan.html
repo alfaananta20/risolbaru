@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PESAN RISOL</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="gambar/logo risol.png" alt="logorisol">
+            <h1>RISOL MAMAH RINI</h1>
+        </div>
+
+        <nav>
+            <a href="index.html"> BERANDA</a>
+            <a href="pesan.html">PESAN</a>
+            <a href="https://wa.me/6288215520827" target="_blank"> HUBUNGI KAMI</a>
+        </nav>
+    </header>
+
+    <section class="pesan">
+        <h2>PESAN RISOL</h2>
+
+        <form>
+            <div class="data">
+                <label>NAMA PEMBELI</label>
+                <input type="text" id="nama" placeholder="Masukkan nama anda">
+
+                <label>NOMOR WHATSAPP</label>
+                <input type="tel" id="nomor" placeholder="08xxxxxxxxxx">
+
+                <label>ALAMAT PENGIRIMAN</label>
+                <input type="text" id="alamat" placeholder="Masukkan alamat anda">
+            </div>
+
+            <br>
+            
+            <h3>Pilih Jumlah Pesanan</h3>
+
+            <div class="produk">
+                <label>Risol Mayo</label>
+                <input type="number" id="mayo" min="0" value="0">
+            </div>
+
+            <div class="produk">
+                <label>Risol Coklat</label>
+                <input type="number" id="coklat" min="0" value="0">
+            </div>
+            
+            <div class="produk">
+                <label>Risol Rogout</label>
+                <input type="number" id="rogout" min="0" value="0">
+            </div>
+
+            <div class="produk">
+                <label>Risol Matcha</label>
+                <input type="number" id="matcha" min="0" value="0">
+            </div>
+
+            <div class="produk">
+                <label>Risol Tiramisu</label>
+                <input type="number" id="tiramisu" min="0" value="0">
+            </div>
+
+            <div class="produk">
+                <label>Risol Margo</label>
+                <input type="number" id="margo" min="0" value="0">
+            </div>
+
+            <br>
+
+            <label>CATATAN</label>
+            <textarea id="catatan"></textarea>
+
+            <button type="button" id="pesanbtn">PESAN SEKARANG</button>
+        </form>
+    </section>    
+
+    <script src="script.js"></script>
+</body>
+</html>

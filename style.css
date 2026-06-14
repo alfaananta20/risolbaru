@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', cursive;
-    background-color: rgba(255, 183, 0, 0.737);
+    background-color: rgba(255, 183, 0, 0.632);
 }
 
 header {
@@ -61,10 +61,10 @@ nav a:hover {
     text-align: center;
     background: rgba(255, 255, 255, 0.651);
     margin: 30px auto;
-    border-radius: 15px;
-    width: 80%;
+    border-radius: 50px;
+    width: 70%;
     padding: 50px 40px;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 
 .awal hr {
@@ -94,7 +94,7 @@ nav a:hover {
 
 .tentang {
     text-align: center;
-    margin-bottom: 250px;
+    margin-bottom: 300px;
 }
 
 .tentang hr {
@@ -113,19 +113,16 @@ nav a:hover {
 }
 
 .menurisol {
-    background: rgba(255, 255, 255, 0.724);
-    margin: 15px auto;
-    width: 80%;
-    border-radius: 15px;
-    padding: 20px 50px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 
 }
 .menu {
     display: grid;
     grid-template-columns: repeat(3, minmax(250px, 350px));
     justify-content: center;
-    gap: 50px;
+    margin: 30px;
+    margin-left: 70px;
+    gap: 40px;
 }
 
 .judulmenu {
@@ -133,15 +130,25 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.judulmenu hr {
+    border-radius: 40px;
+    border-color: black;
+    background-color: black;
+    width: 50%;
+    height: 1.5px;
+    
+}
+
 .cardmenu {
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 40px;
     width: 300px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     transition: 0.3s;
     background-color: wheat;
+    height: 500px;
     
 }
 
@@ -213,7 +220,6 @@ footer hr {
 
 @media (max-width: 768px) {
     header {
-        position: static !important;
         flex-direction: column;
         height: auto;
         padding: 20px;
