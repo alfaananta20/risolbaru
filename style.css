@@ -220,14 +220,25 @@ footer hr {
 
 @media (max-width: 768px) {
     header {
-        flex-direction: column;
         height: auto;
         padding: 20px;
     }
 
     .logo{
-        flex-direction: column;
-        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo h1 {
+        font-size: 28px;
+        margin: 0;
     }
 
     nav {
